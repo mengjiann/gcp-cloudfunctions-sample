@@ -1,3 +1,4 @@
 steps:
 - name: gcr.io/cloud-builders/gcloud
-  args: ['beta', 'functions', 'deploy', 'first_function','--entry-point=helloWorld','--trigger-http','--runtime=nodejs8','--memory=128MB','--source=./functions/']
+  args: ['beta', 'functions', 'deploy', 'first_function_cloudbuild','--entry-point=helloWorld','--trigger-http','--runtime=nodejs8','--memory=128MB','--source=./functions/']
+
